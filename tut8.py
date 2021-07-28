@@ -1,0 +1,12 @@
+from tkinter import *
+root=Tk()
+root.geometry("655x333")
+f1=Frame(root,bg="grey",borderwidth=6,relief=SUNKEN)
+f2=Frame(root,bg="grey",borderwidth=50,relief=SUNKEN)
+f1.pack(side=LEFT,fill="y",pady=122)
+f2.pack(side=TOP,fill="x")
+l=Label(f1,text="Project Tkinter-Pycharm")
+l1=Label(f2,text="Welocom here",pady=7,font="GokuFont 16 bold",fg="Blue")
+l.pack()
+l1.pack()
+root.mainloop()
